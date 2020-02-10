@@ -89,6 +89,9 @@
     <OutDir>..\lib\</OutDir>
     <IntDir>..\build\$(Platform)\</IntDir>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>Fox-Lite</TargetName>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
@@ -111,7 +114,7 @@
     </ResourceCompile>
     <Lib>
       <AdditionalDependencies>msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\lib\FOXD-1.7.lib</OutputFile>
+      <OutputFile>../lib/Fox-Lite.lib</OutputFile>
     </Lib>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -433,6 +436,16 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
     <ClInclude Include="..\include\FXException.h" />
     <ClInclude Include="..\include\FXEXEIcon.h" />
     <ClInclude Include="..\include\FXEXEImage.h" />
+    <ClInclude Include="..\include\FXGLCone.h" />
+    <ClInclude Include="..\include\FXGLCube.h" />
+    <ClInclude Include="..\include\FXGLCylinder.h" />
+    <ClInclude Include="..\include\FXGLLine.h" />
+    <ClInclude Include="..\include\FXGLPoint.h" />
+    <ClInclude Include="..\include\FXGLShape.h" />
+    <ClInclude Include="..\include\FXGLSphere.h" />
+    <ClInclude Include="..\include\FXGLTriangleMesh.h" />
+    <ClInclude Include="..\include\FXJSONString.h" />
+    <ClInclude Include="..\include\fxpriv.h" />
     <ClInclude Include="..\lib\fxexprdbg.h" />
     <ClInclude Include="..\include\FXExpression.h" />
     <ClInclude Include="..\include\FXExtentd.h" />
@@ -2236,6 +2249,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\src\FXGLCone.cpp" />
     <ClCompile Include="..\src\FXGLContext.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -2248,6 +2262,9 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\src\FXGLCube.cpp" />
+    <ClCompile Include="..\src\FXGLCylinder.cpp" />
+    <ClCompile Include="..\src\FXGLLine.cpp" />
     <ClCompile Include="..\src\FXGLObject.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -2260,6 +2277,10 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\src\FXGLPoint.cpp" />
+    <ClCompile Include="..\src\FXGLShape.cpp" />
+    <ClCompile Include="..\src\FXGLSphere.cpp" />
+    <ClCompile Include="..\src\FXGLTriangleMesh.cpp" />
     <ClCompile Include="..\src\FXGLViewer.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -2624,6 +2645,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
     </ClCompile>
     <ClCompile Include="..\src\FXJSON.cpp" />
     <ClCompile Include="..\src\FXJSONFile.cpp" />
+    <ClCompile Include="..\src\FXJSONString.cpp" />
     <ClCompile Include="..\src\fxkeyboard.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -4744,6 +4766,9 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">\Projekte\intern\fox-1.7.46\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">\Projekte\intern\fox-1.7.46\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\fxver.h.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

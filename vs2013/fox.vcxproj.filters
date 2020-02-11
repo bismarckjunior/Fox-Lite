@@ -1,0 +1,2264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\FX885910Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX885911Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX885913Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX885914Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX885915Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX885916Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88593Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88594Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88595Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88596Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88597Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88598Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88599Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXAccelTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXArray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXArrowButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxascii.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXAtomic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXAutoThreadStorageKey.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXBarrier.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxbase64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxbase85.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXBitmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXBitmapFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXBitmapView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXBMPIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXBMPImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxbmpio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXBZFileStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCalendar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCalendarView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCheckButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXChoiceBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColorBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColorDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColorList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColorRing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColors.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColorSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColorWell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXColorWheel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXComboBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCompletion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXComplexd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXComplexf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxcompose.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXComposeContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXComposite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCondition.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXConsole.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1250Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1251Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1252Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1253Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1254Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1255Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1256Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1257Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP1258Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP437Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP850Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP852Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP855Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP856Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP857Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP860Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP861Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP862Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP863Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP864Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP865Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP866Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP869Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCP874Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxcpuid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCURCursor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCursor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDataTarget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDCPrint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDCWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDDSIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDDSImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxddsio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDebugTarget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDelegator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDial.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDialogBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDictionary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDir.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDirBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDirDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDirList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDirSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDirVisitor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDirWatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDispatcher.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDLL.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDockBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDockHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDockSite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDockTitle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDocument.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDragCorner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDrawable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXDriveBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxescape.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXException.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXEXEIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXEXEImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxexeio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXExpression.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXExtentd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXExtentf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxezquantize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFileAssociations.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFileDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFileList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFileProgressDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFileSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFileStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFoldingList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFont.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFontDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFontSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxfsquantize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGauge.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxgetticks.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGIFCursor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGIFIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGIFImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxgifio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLCanvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLCone.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLCube.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLCylinder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLLine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLPoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLShape.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLSphere.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLTriangleMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLViewer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGLVisual.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGradientBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGroupBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXGZFileStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXhalf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXHash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXHeader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXHorizontalFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXICOIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXICOImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIconCache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIconList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIconSource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXId.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIFFIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIFFImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxiffio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXImageFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXImageView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXInputDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIO.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIOBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXIODevice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXJP2Icon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXJP2Image.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxjp2io.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxjpegio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXJPGIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXJPGImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXJSON.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXJSONFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXJSONString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxkeyboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxkeysym.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXKnob.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXKOI8RCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXLabel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXLFQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXListBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXLocale.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMainWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMat2d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMat2f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMat3d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMat3f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMat4d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMat4f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxmath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMatrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMDIButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMDIChild.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMDIClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMemMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMemoryStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuCaption.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuCascade.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuCheck.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuCommand.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuPane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuRadio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuSeparator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMenuTitle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMessageBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMessageChannel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMetaClass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXMutex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXObjectList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXOptionMenu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPacker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxparsegeometry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPCXIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPCXImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxpcxio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPicker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPipe.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPNGIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPNGImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxpngio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPopup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPPMIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPPMImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxppmio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPrintDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxprintf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxpriv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXProcess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXProgressBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXProgressDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxpsio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPtrList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPtrQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXQuatd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXQuatf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRadioButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRandom.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRanged.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRangef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRangeSlider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRASIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRASImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxrasio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXReadWriteLock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRealSlider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRealSpinner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRecentFiles.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRectangle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRegion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRegistry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXReplaceDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXReverseDictionary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRGBIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRGBImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxrgbio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRootWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRuler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXRulerView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxscanf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXScopedThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXScrollArea.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXScrollBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXScrollPane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXScrollWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSearchDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSemaphore.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSemaQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSeparator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSettings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXShell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXShutter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSlider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSocket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSphered.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSpheref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSpinLock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSpinner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSplashWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSplitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSpring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXStat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXStatusBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXStatusLine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXStringDictionary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxstrtod.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxstrtoll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxstrtoull.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSwitcher.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTabBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTabBook.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTabItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxtargaio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTaskGroup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXText.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTextCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTextField.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTGAIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTGAImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXThread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXThreadPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTIFIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTIFImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxtifio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXToggleButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXToolBar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXToolBarGrip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXToolBarShell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXToolBarTab.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXToolTip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTopWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTranslator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTreeList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTreeListBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXTriStateButton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXUndoList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxunicode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXURL.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXUTF16Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXUTF32Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXUTF8Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxutils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVariant.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVariantArray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVariantMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVec2d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVec2f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVec3d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVec3f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVec4d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVec4f.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVerticalFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXVisual.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXWEBPIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXWEBPImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxwebpio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXWizard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXWorker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXWSQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxwuquantize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXXBMIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXXBMImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxxbmio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXXML.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXXMLFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXXPMIcon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXXPMImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fxxpmio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\icons.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX4Splitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX7Segment.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88591Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FX88592Codec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXSPC.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPlotBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPlot2DDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXPlot2D.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXCurve.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FXAxis.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\fx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fx3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX4Splitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX7Segment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88591Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88592Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88593Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88594Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88595Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88596Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88597Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88598Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX88599Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX885910Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX885911Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX885913Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX885914Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX885915Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FX885916Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXAccelTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXApp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXArrowButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxascii.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXAtomic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXAutoPtr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXAutoThreadStorageKey.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXBarrier.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXBitmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXBitmapFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXBitmapView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXBMPIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXBMPImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXBZFileStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCalendar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCalendarView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCallback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCheckButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXChoiceBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColorBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColorDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColorList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColorRing.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColors.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColorSelector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColorWell.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXColorWheel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXComboBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCompletion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXComplexd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXComplexf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXComposeContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXComposite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCondition.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXConsole.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP437Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP850Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP852Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP855Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP856Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP857Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP860Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP861Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP862Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP863Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP864Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP865Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP866Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP869Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP874Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1250Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1251Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1252Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1253Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1254Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1255Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1256Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1257Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCP1258Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxcpuid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCURCursor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCursor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDataTarget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDC.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDCPrint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDCWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDDSIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDDSImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDebugTarget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxdefs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDelegator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDial.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDialogBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDictionary.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDir.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDirBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDirDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDirList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDirSelector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDirVisitor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDirWatch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDLL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDockBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDockHandler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDockSite.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDockTitle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDocument.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDragCorner.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDrawable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXDriveBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXElement.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxendian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXEvent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXException.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXEXEIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXEXEImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fxexprdbg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXExpression.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXExtentd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXExtentf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFileAssociations.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFileDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFileList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFileProgressDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFileSelector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFileStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFoldingList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFont.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFontDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFontSelector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGauge.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGIFCursor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGIFIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGIFImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLCanvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLCone.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLCube.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLCylinder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLLine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLShape.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLSphere.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLTriangleMesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLViewer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGLVisual.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGradientBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGroupBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXGZFileStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXhalf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXHash.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXHeader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXHorizontalFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXICOIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXICOImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIconCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIconList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIconSource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXId.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIFFIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIFFImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXImageFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXImageView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXInputDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIOBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXIODevice.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXJP2Icon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXJP2Image.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXJPGIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXJPGImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXJSON.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXJSONFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXJSONString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxkeys.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXKnob.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXKOI8RCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXLabel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXLFQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXListBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXLocale.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMainWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMat2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMat2f.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMat3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMat3f.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMat4d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMat4f.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxmath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMatrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMDIButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMDIChild.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMDIClient.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMemMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMemoryStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuCaption.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuCascade.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuCheck.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuCommand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuPane.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuRadio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuSeparator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMenuTitle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMessageBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMessageChannel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMetaClass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXMutex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXObjectList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXOptionMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPacker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXParallel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPCXIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPCXImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPicker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPipe.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPNGIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPNGImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPopup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPPMIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPPMImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPrintDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fxpriv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxpriv.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXProcess.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXProgressBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXProgressDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPtrList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPtrQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXQuatd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXQuatf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRadioButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRandom.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRanged.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRangef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRangeSlider.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRASIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRASImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXReadWriteLock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRealSlider.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRealSpinner.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRecentFiles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRectangle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRefPtr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRegion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRegistry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXReplaceDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXReverseDictionary.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRex.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fxrexdbg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRGBIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRGBImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRootWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRuler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRulerView.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXRunnable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXScopedThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXScrollArea.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXScrollBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXScrollPane.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXScrollWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSearchDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSemaphore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSemaQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSeparator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSettings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXShell.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXShutter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSize.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSlider.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSocket.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSphered.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSpheref.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSpinLock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSpinner.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSplashWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSplitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSpring.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXStat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXStatusBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXStatusLine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXStringDictionary.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSwitcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTabBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTabBook.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTabItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTaskGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXText.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTextCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTextField.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTGAIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTGAImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXThread.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXThreadPool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTIFIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTIFImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXToggleButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXToolBar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXToolBarGrip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXToolBarShell.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXToolBarTab.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXToolTip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTopWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTranslator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTreeList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTreeListBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXTriStateButton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXUndoList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxunicode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXURL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXUTF8Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXUTF16Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXUTF32Codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVariant.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVariantArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVariantMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVec2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVec2f.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVec3d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVec3f.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVec4d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVec4f.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVerticalFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXVisual.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXWEBPIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXWEBPImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXWizard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXWorker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXWSQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXXBMIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXXBMImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXXML.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXXMLFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXXPMIcon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXXPMImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\icons.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\jitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\xincs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\icons.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXSPC.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPlotBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXPlot2DDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fxplot2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXCurve.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FXAxis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\include\version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{48ebddc7-5d54-43c6-ae97-e35d7fcacc6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{10b9073c-f892-49a0-bb8a-c59e25c33170}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\include\fxver.h.in">
+      <Filter>include</Filter>
+    </None>
+  </ItemGroup>
+</Project>

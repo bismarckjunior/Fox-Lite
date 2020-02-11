@@ -20,6 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F9B16000-8A41-4A18-A602-8E1CA609C6B3}</ProjectGuid>
+    <ProjectName>fox-lite</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -90,7 +91,7 @@
     <IntDir>..\build\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>Fox-Lite</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -143,7 +144,7 @@
     </ResourceCompile>
     <Lib>
       <AdditionalDependencies>msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\lib\$(ProjectName).lib</OutputFile>
+      <OutputFile>../lib/Fox-Lite.lib</OutputFile>
     </Lib>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -177,7 +178,7 @@
     </ResourceCompile>
     <Lib>
       <AdditionalDependencies>msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\lib\$(ProjectName).lib</OutputFile>
+      <OutputFile>../lib/Fox-Lite.lib</OutputFile>
       <SuppressStartupBanner>false</SuppressStartupBanner>
     </Lib>
     <Bscmake>
@@ -212,7 +213,7 @@
     </ResourceCompile>
     <Lib>
       <AdditionalDependencies>msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\lib\$(ProjectName).lib</OutputFile>
+      <OutputFile>../lib/Fox-Lite.lib</OutputFile>
       <SuppressStartupBanner>false</SuppressStartupBanner>
     </Lib>
     <Bscmake>
@@ -343,6 +344,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
     <ClInclude Include="..\include\FXAtomic.h" />
     <ClInclude Include="..\include\FXAutoPtr.h" />
     <ClInclude Include="..\include\FXAutoThreadStorageKey.h" />
+    <ClInclude Include="..\include\FXAxis.h" />
     <ClInclude Include="..\include\FXBarrier.h" />
     <ClInclude Include="..\include\FXBitmap.h" />
     <ClInclude Include="..\include\FXBitmapFrame.h" />
@@ -400,6 +402,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
     <ClInclude Include="..\include\fxcpuid.h" />
     <ClInclude Include="..\include\FXCURCursor.h" />
     <ClInclude Include="..\include\FXCursor.h" />
+    <ClInclude Include="..\include\FXCurve.h" />
     <ClInclude Include="..\include\FXDataTarget.h" />
     <ClInclude Include="..\include\FXDate.h" />
     <ClInclude Include="..\include\FXDC.h" />
@@ -445,7 +448,13 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
     <ClInclude Include="..\include\FXGLSphere.h" />
     <ClInclude Include="..\include\FXGLTriangleMesh.h" />
     <ClInclude Include="..\include\FXJSONString.h" />
+    <ClInclude Include="..\include\fxplot2d.h" />
+    <ClInclude Include="..\include\FXPlot2DDialog.h" />
+    <ClInclude Include="..\include\FXPlotBase.h" />
     <ClInclude Include="..\include\fxpriv.h" />
+    <ClInclude Include="..\include\FXSPC.h" />
+    <ClInclude Include="..\include\icons.h" />
+    <ClInclude Include="..\include\jitter.h" />
     <ClInclude Include="..\lib\fxexprdbg.h" />
     <ClInclude Include="..\include\FXExpression.h" />
     <ClInclude Include="..\include\FXExtentd.h" />
@@ -953,6 +962,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\src\FXAxis.cpp" />
     <ClCompile Include="..\src\FXBarrier.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1629,6 +1639,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\src\FXCurve.cpp" />
     <ClCompile Include="..\src\FXDataTarget.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -3200,6 +3211,9 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\src\FXPlot2D.cpp" />
+    <ClCompile Include="..\src\FXPlot2DDialog.cpp" />
+    <ClCompile Include="..\src\FXPlotBase.cpp" />
     <ClCompile Include="..\src\FXPNGIcon.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -3875,6 +3889,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="..\src\FXSPC.cpp" />
     <ClCompile Include="..\src\FXSphered.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

@@ -1126,24 +1126,6 @@
     <ClCompile Include="..\src\FX88592Codec.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\FXSPC.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\FXPlotBase.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\FXPlot2DDialog.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\FXPlot2D.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\FXCurve.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\FXAxis.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\fx.h">
@@ -2244,9 +2226,6 @@
     <ClInclude Include="..\include\FXAxis.h">
       <Filter>include</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="..\include\version.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">

@@ -4770,6 +4770,7 @@ $(SolutionDir)reswrap\Release\reswrap -nc -h -n FX -o icons.h arrownext.gif arro
   </ItemGroup>
   <ItemGroup>
     <None Include="..\include\fxver.h.in" />
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

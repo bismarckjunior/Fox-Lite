@@ -46,6 +46,7 @@
 #include <GL/glu.h>
 #endif
 
+
 // Additional FOX includes
 #include "FXVec2f.h"
 #include "FXVec2d.h"
@@ -55,8 +56,6 @@
 #include "FXVec4d.h"
 #include "FXQuatf.h"
 #include "FXQuatd.h"
-#include "FXMat2f.h"
-#include "FXMat2d.h"
 #include "FXMat3f.h"
 #include "FXMat3d.h"
 #include "FXMat4f.h"
@@ -67,13 +66,17 @@
 #include "FXSphered.h"
 #include "FXExtentf.h"
 #include "FXExtentd.h"
-#include "FXComplexf.h"
-#include "FXComplexd.h"
 #include "FXGLVisual.h"
 #include "FXGLContext.h"
 #include "FXGLCanvas.h"
 #include "FXGLViewer.h"
 #include "FXGLObject.h"
+#include "FXGLShape.h"
+#include "FXGLCone.h"
+#include "FXGLCube.h"
+#include "FXGLCylinder.h"
+#include "FXGLSphere.h"
+#include "FXGLTriangleMesh.h"
 
 #ifndef FX_NO_GLOBAL_NAMESPACE
 using namespace FX;
